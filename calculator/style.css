@@ -1,0 +1,114 @@
+.calc{
+    width: 410px;
+    height: 500px;
+    background-color:rgb(109, 105, 105);
+    box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+    margin-left: 30%;
+    margin-top:150px;
+    border-radius: 10px;
+    
+    
+}
+#screen{
+    width: 330px;
+    margin-top: 30px;
+    font-weight: 600;
+    height: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+    text-align: right;
+    font-weight: 600px;
+    padding: 20px;
+    background:transparent;
+    box-shadow: inset 2px 2px 5px #babecc, inset 0px -1px 5px #fff ;
+    pointer-events: none;
+    margin-left: 25px;
+
+
+}
+input::placeholder{
+    color: black;
+}
+.btn{
+    width: 60px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 5px 5px 8px #b6acb6,  -1px 3px #faf4f4;
+    margin: 15px 0 0 5px;
+    /* margin-top: 20px; */
+    /* margin-left: 31px; */
+}.btn2{
+    width: 60px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: red;
+    box-shadow: 5px 5px 8px #000000,  -1px 3px #000000;
+    margin: 15px 0 0 5px;
+}
+#buttons{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.btn:active{
+    box-shadow: inset 4px 5px 5px #babeec, inset -1px -1px 2px #ffff;
+}
+#btn1{ 
+    margin-left: 10px;
+    width: 60px;
+    height: 50px;
+    border: none;
+                   
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: red;
+    box-shadow: 5px 5px 8px #000000,  -1px 3px #000000;
+    margin: 15px 0 0 140px;
+    animation: 1.4s linear infinite;
+}
+.btn3{
+    width: 60px;
+    color: blanchedalmond; 
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background:black;
+    box-shadow: 5px 5px 8px #000000,  -1px 3px #000000;
+    margin: 15px 0 0 5px;
+}
+#btn4{
+    width: 60px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: red;
+    box-shadow: 5px 5px 8px #000000,  -1px 3px #000000;
+    margin: 0px 0 0 110px;
+}
+body{
+    background-color: whitesmoke;
+    
+}
